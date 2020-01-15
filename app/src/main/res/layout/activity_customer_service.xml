@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.doubled.wahanaekspedisi.activity.Rates">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="35dp"
+                android:text="Customer Service"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="center_horizontal"
+                android:text="@string/wahana"/>
+
+            <Button
+                android:id="@+id/btnCSWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kirim Keluhan VIA WEB"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WhiteSmoke"
+                android:background="@color/primary_dark"/>
+            <Button
+                android:id="@+id/btnCSTwitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kirim Keluhan VIA TWITTER"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WhiteSmoke"
+                android:background="@color/primary_dark"/>
+            <Button
+                android:id="@+id/btnCSFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kirim KELUHAN VIA FACEBOOK"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WhiteSmoke"
+                android:background="@color/primary_dark"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

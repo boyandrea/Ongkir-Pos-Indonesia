@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    tools:context="com.doubled.ongkirposindonesia.activity.Rates">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <AutoCompleteTextView
+                android:id="@+id/autotxtAsal"
+                android:layout_width="match_parent"
+                android:padding="10dip"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primary_text"
+                android:hint="Kel/Kec/Kota/Kodepos Asal"
+                android:background="@color/primary_light"
+                android:layout_height="wrap_content"/>
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/autotxtTujuan"
+                android:layout_width="match_parent"
+                android:padding="10dip"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/primary_text"
+                android:hint="Kel/Kec/Kota/Kodepos Tujuan"
+                android:background="@color/primary_light"
+                android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Berat (Gram)"
+                android:layout_marginTop="15dp"
+                android:padding="10dp"
+                android:background="@color/primary_light"
+                android:imeOptions="actionDone"
+                android:id="@+id/editBerat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Dimensi Paket(cm)  Opsional :"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:hint="Panjang"
+                    android:layout_margin="3dp"
+                    android:padding="10dp"
+                    android:background="@color/primary_light"
+                    android:id="@+id/editPanjang" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:hint="Lebar"
+                    android:layout_margin="3dp"
+                    android:padding="10dp"
+                    android:background="@color/primary_light"
+                    android:id="@+id/editLebar" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:hint="Tinggi"
+                    android:layout_margin="3dp"
+                    android:padding="10dp"
+                    android:background="@color/primary_light"
+                    android:id="@+id/editTinggi" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Diameter"
+                android:layout_margin="3dp"
+                android:padding="10dp"
+                android:background="@color/primary_light"
+                android:id="@+id/editDiameter" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Nilai Barang (Rp)"
+                android:layout_margin="3dp"
+                android:padding="10dp"
+                android:background="@color/primary_light"
+                android:id="@+id/editNilai" />
+
+            <Button
+                android:id="@+id/btnOngkir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@color/primary_dark"
+                android:textColor="@color/WhiteSmoke"
+                android:text="Cek Ongkir"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

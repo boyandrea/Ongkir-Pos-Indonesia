@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Ongkir POS Indonesia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_alamat_basic">Rates</string>
+    <string name="nav_tracking">Tracking</string>
+    <string name="nav_news">News</string>
+    <string name="nav_cs">Customer Service</string>
+    <string name="nav_about">About</string>
+    <string name="nav_help">Help</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="about">Ongkir POS Indonesia merupakan sebuah aplikasi <u>unofficial</u> untuk melakukan cek ongkos kirim ekspedisi PT. POS Indonesia.</string>
+    <string name="about1"> Aplikasi ini mendapatkan data langsung dari web POS Indonesia dan database hasil pencarian pengguna. Sehingga jika server wahana mengalami gangguan maka aplikasi ini juga terganggu</string>
+    <string name="about2">Semua logo,merk dan data ongkos kirim merupakan milik PT POS LOGISTICS INDONESIA. Saya sebagai developer hanya memfasilitasi pengecekan ongkos kirim dari mobile apps ke website POS. </string>
+    <string name="help_rates">Untuk melakukan cek ongkos kirim cukup memilih kota asal, mengetikan kota tujuan dan berat barang dalam gram</string>
+    <string name="help_rates1">Jika terjadi gagal dalam pengecekan bisa dikarenakan koneksi atau server sedang sibuk</string>
+    <string name="help_tracking">Untuk melakukan pengecekan status paket kiriman cukup menekan tombol biru pada bawah halaman Tracking.
+        Selanjutnya masukan nomor resi dan klik tombol search untuk memulai pencarian.</string>
+    <string name="help_tracking1">Jika terjadi gagal bisa dikarenakan nomor resi tidak ditemukan atau server sedang sibuk</string>
+
+    <string name="bantuan">Tekan tombol bantuan dibawah untuk mengirimkan email bantuan.
+        Saya sebagai developer hanya menerima email tentang aplikasi ini tidak untuk masalah ekspedisi wahana.
+    Mengenai masalah paket kiriman atau hal lain diluar aplikasi ini silakan hubungi customer service POS Indonesia.</string>
+
+    <string name="wahana"><b>PT POS LOGISTICS INDONESIA </b>
+\n Graha Pos Indonesia, Lantai 8, Blok A
+\n Jl. Banda No. 30 Bandung 40115
+\n Jawa Barat - Indonesia
+\n Tel.  (022) 4212515, (022) 4218996
+\n Fax.  (022) 4261569</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>Home</item>
+        <item>@string/nav_alamat_basic</item>
+        <item>@string/nav_tracking</item>
+        <item>@string/nav_news</item>
+        <item>@string/nav_cs</item>
+        <item>@string/nav_about</item>
+        <item>@string/nav_help</item>
+    </string-array>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

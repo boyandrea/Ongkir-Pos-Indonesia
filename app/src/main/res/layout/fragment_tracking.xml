@@ -1,0 +1,44 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/primary_light"
+           android:orientation="horizontal">
+
+           <EditText
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="0.85"
+               android:id="@+id/inputResi"
+               android:inputType="number"
+               android:maxLength="13"
+               android:background="@color/primary_light"
+               android:imeOptions="actionSend"
+               android:padding="15dp"/>
+
+           <ImageButton
+               android:id="@+id/btnCekResi"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="0.15"
+               android:background="@color/primary_dark"
+               android:src="@mipmap/ic_action_search"/>
+
+       </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/TrackingRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>
